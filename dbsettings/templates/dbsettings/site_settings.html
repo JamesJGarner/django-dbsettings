@@ -1,5 +1,5 @@
-{% extends "admin/base_site.html" %}
-{% load i18n static %}
+{% extends "admin/base.html" %}
+{% load admin_static %}
 {% load url from future %}
 
 {% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% get_static_prefix %}admin/css/forms.css" />{% endblock %}
